@@ -26,8 +26,8 @@ fig = go.Figure(data=[go.Candlestick(x=input_df['date'],
                 low=input_df['low'],
                 close=input_df['close'])])
 
-fig.write_html("BN.html")
-webbrowser.open_new_tab("BN.html")
+#fig.write_html("BN.html")
+#webbrowser.open_new_tab("BN.html")
 
 def filedownload(df):
     csv = df.to_csv(index=False)
