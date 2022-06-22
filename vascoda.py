@@ -11,7 +11,7 @@ from datetime import datetime
 
 
 st.write("""
-# mokaTimo -- Made by Mohit
+# MokaTimo -- Made by Mohit
 """)
 
 
