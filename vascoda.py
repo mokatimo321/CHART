@@ -11,11 +11,11 @@ from datetime import datetime
 
 
 st.write("""
-# CHART MAKER APP
+# mokaTimo -- Made by Mohit
 """)
 
 
-st.sidebar.header('INPUT DATA FILE')
+st.sidebar.header('INPUT DATA FILE // CSV FILE')
 
 uploaded_file = st.sidebar.file_uploader("Upload your input CSV file", type=["csv"])
 if uploaded_file is not None:
