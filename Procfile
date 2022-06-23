@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run timo.py
+web: sh setup.sh && streamlit run koma.py
